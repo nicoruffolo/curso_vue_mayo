@@ -1,7 +1,7 @@
 <template>
   <div>
 
-        <h6> Bievenidosss </h6>
+        <h6> Bievenidos a el sistema de productos  </h6>
   </div>
 </template>
 <script>

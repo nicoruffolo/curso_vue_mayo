@@ -1,17 +1,17 @@
 <template>
   <div>
-
-       <h3> Pagina  de Productos :P </h3>
+      
         <h6> Listado De Productos </h6>
-        <tr v-for="producto in productos"
-                                :key="producto.id"  >
-                                <th class="collection"> Producto Detalle
-                                   <td class="collection-item"> {{ producto.description }}   </td>
-                                   <td> {{ producto.name }}   </td>
-                                </th>
-                             
-                               
-       </tr>
+       
+       <div  v-for="producto in productos"
+                                :key="producto.id"  
+                                 class="collection"> Producto Detalle:
+                                    {{ producto.description }}
+                                    <br>
+                                    Producto Nombre:   
+                                    {{ producto.name }}                
+       
+      </div>
 
   </div>
 </template>
